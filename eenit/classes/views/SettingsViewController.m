@@ -7,8 +7,11 @@
 //
 
 #import "SettingsViewController.h"
+#import "LocalStorage.h"
 
 @implementation SettingsViewController
+
+@synthesize soundFx,bgMusic;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -40,6 +43,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    [soundFx setOn:[[LocalStorage getSettingWithKey:@"soundFx"] boolValue] ];
+    [bgMusic setOn:[[LocalStorage getSettingWithKey:@"backgroundMusic"] boolValue] ];    
     //
     
 }
@@ -61,6 +66,14 @@
 
 -(IBAction)close:(id)sender{
     [self dismissModalViewControllerAnimated:YES];
+}
+
+
+-(IBAction)soundSwitchChanged:(id)sender{
+    [LocalStorage setSetting:[NSNumber numberWithBool:[soundFx isOn]] forKey:@"soundFx"];
+}
+-(IBAction)bgMusicSwitchChanged:(id)sender{
+    [LocalStorage setSetting:[NSNumber numberWithBool:[bgMusic isOn]] forKey:@"backgroundMusic"];
 }
 
 

@@ -8,8 +8,17 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SettingsViewController : UIViewController
+@interface SettingsViewController : UIViewController{
+    IBOutlet UISwitch *soundFx;
+    IBOutlet UISwitch *bgMusic;
+}
 
+@property (nonatomic,retain) IBOutlet UISwitch *soundFx; 
+@property (nonatomic,retain) IBOutlet UISwitch *bgMusic;
 
 -(IBAction)close:(id)sender;
+
+-(IBAction)soundSwitchChanged:(id)sender;
+-(IBAction)bgMusicSwitchChanged:(id)sender;
+
 @end
