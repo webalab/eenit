@@ -81,6 +81,11 @@
 		62A10D5814D504ED0072B828 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62A10D5714D504EC0072B828 /* CoreData.framework */; };
 		62A10D5A14D505710072B828 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62A10D5914D505710072B828 /* GameKit.framework */; };
 		62A10D5C14D505840072B828 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62A10D5B14D505830072B828 /* Twitter.framework */; };
+		62A10D5F14D51F920072B828 /* LocalStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 62A10D5E14D51F920072B828 /* LocalStorage.m */; };
+		62A10D6214D520420072B828 /* Sound.m in Sources */ = {isa = PBXBuildFile; fileRef = 62A10D6114D520410072B828 /* Sound.m */; };
+		62A10D6414D523D80072B828 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62A10D6314D523D70072B828 /* AVFoundation.framework */; };
+		62A10D6614D523DF0072B828 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62A10D6514D523DE0072B828 /* AudioToolbox.framework */; };
+		62A10D6814D523E60072B828 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62A10D6714D523E60072B828 /* CoreAudio.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -172,6 +177,13 @@
 		62A10D5714D504EC0072B828 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		62A10D5914D505710072B828 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
 		62A10D5B14D505830072B828 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		62A10D5D14D51F920072B828 /* LocalStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LocalStorage.h; path = classes/utils/LocalStorage.h; sourceTree = "<group>"; };
+		62A10D5E14D51F920072B828 /* LocalStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LocalStorage.m; path = classes/utils/LocalStorage.m; sourceTree = "<group>"; };
+		62A10D6014D520410072B828 /* Sound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Sound.h; path = classes/utils/Sound.h; sourceTree = "<group>"; };
+		62A10D6114D520410072B828 /* Sound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Sound.m; path = classes/utils/Sound.m; sourceTree = "<group>"; };
+		62A10D6314D523D70072B828 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		62A10D6514D523DE0072B828 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		62A10D6714D523E60072B828 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,6 +191,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62A10D6814D523E60072B828 /* CoreAudio.framework in Frameworks */,
+				62A10D6614D523DF0072B828 /* AudioToolbox.framework in Frameworks */,
+				62A10D6414D523D80072B828 /* AVFoundation.framework in Frameworks */,
 				62A10D5C14D505840072B828 /* Twitter.framework in Frameworks */,
 				62A10D5A14D505710072B828 /* GameKit.framework in Frameworks */,
 				62A10D5814D504ED0072B828 /* CoreData.framework in Frameworks */,
@@ -195,6 +210,9 @@
 		62A10C9214D4D1E40072B828 = {
 			isa = PBXGroup;
 			children = (
+				62A10D6714D523E60072B828 /* CoreAudio.framework */,
+				62A10D6514D523DE0072B828 /* AudioToolbox.framework */,
+				62A10D6314D523D70072B828 /* AVFoundation.framework */,
 				62A10CA714D4D1E40072B828 /* eenit */,
 				62A10CA014D4D1E40072B828 /* Frameworks */,
 				62A10C9E14D4D1E40072B828 /* Products */,
@@ -321,6 +339,10 @@
 			children = (
 				62A10D5214D504510072B828 /* CDataHandler.h */,
 				62A10D5314D504510072B828 /* CDataHandler.m */,
+				62A10D5D14D51F920072B828 /* LocalStorage.h */,
+				62A10D5E14D51F920072B828 /* LocalStorage.m */,
+				62A10D6014D520410072B828 /* Sound.h */,
+				62A10D6114D520410072B828 /* Sound.m */,
 			);
 			name = utils;
 			sourceTree = "<group>";
@@ -486,6 +508,8 @@
 				62A10CD614D4DC0A0072B828 /* GameViewController.m in Sources */,
 				62A10CD914D4DC200072B828 /* PauseViewController.m in Sources */,
 				62A10D5414D504510072B828 /* CDataHandler.m in Sources */,
+				62A10D5F14D51F920072B828 /* LocalStorage.m in Sources */,
+				62A10D6214D520420072B828 /* Sound.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

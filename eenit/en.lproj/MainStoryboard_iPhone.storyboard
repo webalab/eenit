@@ -90,10 +90,16 @@
                             <switch opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" id="7oz-Qj-Caa">
                                 <rect key="frame" x="208" y="95" width="79" height="27"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="bgMusicSwitchChanged:" destination="qRy-J2-YBG" eventType="valueChanged" id="FnH-ry-PsI"/>
+                                </connections>
                             </switch>
                             <switch opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" id="7pE-cW-Fg1">
                                 <rect key="frame" x="208" y="165" width="79" height="27"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="soundSwitchChanged:" destination="qRy-J2-YBG" eventType="valueChanged" id="yt7-aS-25X"/>
+                                </connections>
                             </switch>
                             <switch opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" id="DSe-6j-4Q0">
                                 <rect key="frame" x="208" y="235" width="79" height="27"/>
@@ -117,6 +123,10 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Settings" id="V5j-T9-kWw"/>
+                    <connections>
+                        <outlet property="bgMusic" destination="7oz-Qj-Caa" id="Igm-so-vSP"/>
+                        <outlet property="soundFx" destination="7pE-cW-Fg1" id="P89-Qb-EBt"/>
+                    </connections>
                 </viewController>
             </objects>
             <point key="canvasLocation" x="1102" y="-695"/>
@@ -558,7 +568,11 @@
         <class className="SettingsViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/SettingsViewController.h"/>
             <relationships>
+                <relationship kind="action" name="bgMusicSwitchChanged:"/>
                 <relationship kind="action" name="close:"/>
+                <relationship kind="action" name="soundSwitchChanged:"/>
+                <relationship kind="outlet" name="bgMusic" candidateClass="UISwitch"/>
+                <relationship kind="outlet" name="soundFx" candidateClass="UISwitch"/>
             </relationships>
         </class>
         <class className="StatsViewController" superclassName="UIViewController">
