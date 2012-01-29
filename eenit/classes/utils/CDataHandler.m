@@ -44,6 +44,7 @@ NSString * const dataModelID = @"pingmeDataModel";
         //When not already set, +initialize is our caller—it's creating the shared instance. Let this go through.
         return [super allocWithZone:zone];
     }
+    
 }
 
 - (id) init {

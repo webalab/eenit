@@ -41,11 +41,6 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    //Set bagckground image. 
-    UIImage *background = [UIImage imageNamed: @"main_menu_bg"];    
-    UIImageView *imageView = [[UIImageView alloc] initWithImage: background]; 
-    [self.view addSubview: imageView];
-    [self.view sendSubviewToBack:imageView];
     //
     
 }

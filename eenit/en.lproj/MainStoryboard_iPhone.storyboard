@@ -13,6 +13,10 @@
                         <rect key="frame" x="0.0" y="20" width="320" height="460"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="about_bg.png" id="ij4-Y7-udX">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="460"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="About" lineBreakMode="tailTruncation" minimumFontSize="10" id="d3D-Gy-2LO">
                                 <rect key="frame" x="20" y="20" width="42" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -54,6 +58,10 @@
                         <rect key="frame" x="0.0" y="20" width="320" height="460"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="settings_bg.png" id="Y6q-eF-Y9s">
+                                <rect key="frame" x="0.0" y="-6" width="320" height="466"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Lwm-br-Hky">
                                 <rect key="frame" x="68" y="399" width="184" height="41"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -91,6 +99,20 @@
                                 <rect key="frame" x="208" y="235" width="79" height="27"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </switch>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Background Music" lineBreakMode="tailTruncation" minimumFontSize="10" id="XYp-Bd-xl4">
+                                <rect key="frame" x="32" y="95" width="162" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Sound FX" lineBreakMode="tailTruncation" minimumFontSize="10" id="6ah-ii-6Dr">
+                                <rect key="frame" x="32" y="168" width="162" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -107,6 +129,10 @@
                         <rect key="frame" x="0.0" y="20" width="320" height="460"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="stats_bg.png" id="UI1-TA-KTS">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="460"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Stats" lineBreakMode="tailTruncation" minimumFontSize="10" id="zK0-i8-1gN">
                                 <rect key="frame" x="29" y="20" width="42" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -133,7 +159,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="7Aa-MH-dpd">
-                                <rect key="frame" x="116" y="20" width="184" height="41"/>
+                                <rect key="frame" x="116" y="45" width="184" height="41"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Game Center" backgroundImage="gamecenter_btn.png">
@@ -209,7 +235,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="pla-dx-4OA">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="416"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="460"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" backgroundImage="intro_bg.png">
@@ -258,6 +284,10 @@
                         <rect key="frame" x="0.0" y="20" width="320" height="460"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="main_menu_bg.png" id="jXt-J1-Plj">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="460"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="NrE-aw-yav">
                                 <rect key="frame" x="68" y="355" width="184" height="41"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -364,8 +394,12 @@
                         <rect key="frame" x="0.0" y="20" width="320" height="460"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="game_bg.png" id="4CW-Ah-5nG">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="460"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="bYK-Jg-gJZ">
-                                <rect key="frame" x="116" y="10" width="184" height="41"/>
+                                <rect key="frame" x="116" y="46" width="184" height="41"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Pause" backgroundImage="pause_btn.png">
@@ -379,7 +413,7 @@
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Jri-za-59i" kind="modal" identifier="pause_s" id="vi2-sS-lZG"/>
+                                    <segue destination="Jri-za-59i" kind="modal" identifier="pause_s" modalTransitionStyle="flipHorizontal" id="vi2-sS-lZG"/>
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Game" lineBreakMode="tailTruncation" minimumFontSize="10" id="qfo-gx-rjz">
@@ -401,10 +435,14 @@
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zon-Tn-xLs" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="Jri-za-59i" customClass="PauseViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Ued-M0-QTg">
+                    <view key="view" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" id="Ued-M0-QTg">
                         <rect key="frame" x="0.0" y="20" width="320" height="460"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="pause_bg.png" id="cJx-Kx-7R2">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="460"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="74J-Uv-omH">
                                 <rect key="frame" x="68" y="153" width="184" height="41"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -442,7 +480,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                 </viewController>
             </objects>
@@ -452,8 +490,10 @@
     <resources>
         <image name="about_back_btn.png" width="184" height="41"/>
         <image name="about_back_sel_btn.png" width="184" height="41"/>
+        <image name="about_bg.png" width="320" height="480"/>
         <image name="about_btn.png" width="184" height="41"/>
         <image name="about_sel_btn.png" width="184" height="41"/>
+        <image name="game_bg.png" width="320" height="480"/>
         <image name="gamecenter_btn.png" width="184" height="41"/>
         <image name="gamecenter_sel_btn.png" width="184" height="41"/>
         <image name="help_back_btn.png" width="184" height="41"/>
@@ -461,6 +501,8 @@
         <image name="help_btn.png" width="184" height="41"/>
         <image name="help_sel_btn.png" width="184" height="41"/>
         <image name="intro_bg.png" width="320" height="480"/>
+        <image name="main_menu_bg.png" width="320" height="480"/>
+        <image name="pause_bg.png" width="320" height="480"/>
         <image name="pause_btn.png" width="184" height="41"/>
         <image name="pause_sel_btn.png" width="184" height="41"/>
         <image name="play_btn.png" width="184" height="41"/>
@@ -471,10 +513,12 @@
         <image name="resume_sel_btn.png" width="184" height="41"/>
         <image name="settings_back_btn.png" width="184" height="41"/>
         <image name="settings_back_sel_btn.png" width="184" height="41"/>
+        <image name="settings_bg.png" width="320" height="480"/>
         <image name="settings_btn.png" width="184" height="41"/>
         <image name="settings_sel_btn.png" width="184" height="41"/>
         <image name="stats_back_btn.png" width="184" height="41"/>
         <image name="stats_back_sel_btn.png" width="184" height="41"/>
+        <image name="stats_bg.png" width="320" height="480"/>
         <image name="stats_btn.png" width="184" height="41"/>
         <image name="stats_sel_btn.png" width="184" height="41"/>
     </resources>

@@ -45,11 +45,6 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    //Set bagckground image. 
-    UIImage *background = [UIImage imageNamed: @"pause_bg"];    
-    UIImageView *imageView = [[UIImageView alloc] initWithImage: background]; 
-    [self.view addSubview: imageView];
-    [self.view sendSubviewToBack:imageView];
     //
     
 }
