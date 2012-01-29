@@ -23,15 +23,15 @@
 		62A10CA114D4D1E40072B828 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		62A10CA314D4D1E40072B828 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		62A10CA514D4D1E40072B828 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		62A10CA914D4D1E40072B828 /* eenit-Info.plist */ = {isa = PBXFileReference; path = "eenit-Info.plist"; sourceTree = "<group>"; };
+		62A10CA914D4D1E40072B828 /* eenit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "eenit-Info.plist"; sourceTree = "<group>"; };
 		62A10CAB14D4D1E40072B828 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		62A10CAD14D4D1E40072B828 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		62A10CAF14D4D1E40072B828 /* eenit-Prefix.pch */ = {isa = PBXFileReference; path = "eenit-Prefix.pch"; sourceTree = "<group>"; };
-		62A10CB014D4D1E40072B828 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		62A10CAF14D4D1E40072B828 /* eenit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "eenit-Prefix.pch"; sourceTree = "<group>"; };
+		62A10CB014D4D1E40072B828 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		62A10CB114D4D1E40072B828 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		62A10CB414D4D1E40072B828 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		62A10CB714D4D1E40072B828 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		62A10CB914D4D1E40072B828 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		62A10CB914D4D1E40072B828 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		62A10CBA14D4D1E40072B828 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
