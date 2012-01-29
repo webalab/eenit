@@ -76,6 +76,11 @@
 		62A10D4D14D4FFD60072B828 /* resume_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 62A10D4914D4FFD50072B828 /* resume_btn.png */; };
 		62A10D5014D500590072B828 /* gamecenter_sel_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 62A10D4E14D500570072B828 /* gamecenter_sel_btn.png */; };
 		62A10D5114D500590072B828 /* gamecenter_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 62A10D4F14D500580072B828 /* gamecenter_btn.png */; };
+		62A10D5414D504510072B828 /* CDataHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 62A10D5314D504510072B828 /* CDataHandler.m */; };
+		62A10D5614D504E60072B828 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62A10D5514D504E50072B828 /* MessageUI.framework */; };
+		62A10D5814D504ED0072B828 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62A10D5714D504EC0072B828 /* CoreData.framework */; };
+		62A10D5A14D505710072B828 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62A10D5914D505710072B828 /* GameKit.framework */; };
+		62A10D5C14D505840072B828 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62A10D5B14D505830072B828 /* Twitter.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -161,6 +166,12 @@
 		62A10D4914D4FFD50072B828 /* resume_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = resume_btn.png; sourceTree = "<group>"; };
 		62A10D4E14D500570072B828 /* gamecenter_sel_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gamecenter_sel_btn.png; sourceTree = "<group>"; };
 		62A10D4F14D500580072B828 /* gamecenter_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gamecenter_btn.png; sourceTree = "<group>"; };
+		62A10D5214D504510072B828 /* CDataHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDataHandler.h; path = classes/utils/CDataHandler.h; sourceTree = "<group>"; };
+		62A10D5314D504510072B828 /* CDataHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDataHandler.m; path = classes/utils/CDataHandler.m; sourceTree = "<group>"; };
+		62A10D5514D504E50072B828 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		62A10D5714D504EC0072B828 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		62A10D5914D505710072B828 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		62A10D5B14D505830072B828 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +179,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62A10D5C14D505840072B828 /* Twitter.framework in Frameworks */,
+				62A10D5A14D505710072B828 /* GameKit.framework in Frameworks */,
+				62A10D5814D504ED0072B828 /* CoreData.framework in Frameworks */,
+				62A10D5614D504E60072B828 /* MessageUI.framework in Frameworks */,
 				62A10CA214D4D1E40072B828 /* UIKit.framework in Frameworks */,
 				62A10CA414D4D1E40072B828 /* Foundation.framework in Frameworks */,
 				62A10CA614D4D1E40072B828 /* CoreGraphics.framework in Frameworks */,
@@ -197,6 +212,10 @@
 		62A10CA014D4D1E40072B828 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				62A10D5B14D505830072B828 /* Twitter.framework */,
+				62A10D5914D505710072B828 /* GameKit.framework */,
+				62A10D5714D504EC0072B828 /* CoreData.framework */,
+				62A10D5514D504E50072B828 /* MessageUI.framework */,
 				62A10CA114D4D1E40072B828 /* UIKit.framework */,
 				62A10CA314D4D1E40072B828 /* Foundation.framework */,
 				62A10CA514D4D1E40072B828 /* CoreGraphics.framework */,
@@ -300,6 +319,8 @@
 		62A10D1814D4F51B0072B828 /* utils */ = {
 			isa = PBXGroup;
 			children = (
+				62A10D5214D504510072B828 /* CDataHandler.h */,
+				62A10D5314D504510072B828 /* CDataHandler.m */,
 			);
 			name = utils;
 			sourceTree = "<group>";
@@ -464,6 +485,7 @@
 				62A10CD314D4DAF50072B828 /* IntroViewController.m in Sources */,
 				62A10CD614D4DC0A0072B828 /* GameViewController.m in Sources */,
 				62A10CD914D4DC200072B828 /* PauseViewController.m in Sources */,
+				62A10D5414D504510072B828 /* CDataHandler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
