@@ -14,4 +14,4 @@ DerivedData/
 # Misc
 .svn
 .DS_Store
-
+*.xcworkspace
