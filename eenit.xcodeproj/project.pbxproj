@@ -86,6 +86,9 @@
 		62A10D6414D523D80072B828 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62A10D6314D523D70072B828 /* AVFoundation.framework */; };
 		62A10D6614D523DF0072B828 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62A10D6514D523DE0072B828 /* AudioToolbox.framework */; };
 		62A10D6814D523E60072B828 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62A10D6714D523E60072B828 /* CoreAudio.framework */; };
+		62A10D7A14D5B9680072B828 /* libGoogleAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 62A10D7814D5B9680072B828 /* libGoogleAnalytics.a */; };
+		62A10D7B14D5B9680072B828 /* libGoogleAnalytics_NoThumb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 62A10D7914D5B9680072B828 /* libGoogleAnalytics_NoThumb.a */; };
+		62A10D7D14D5BA7F0072B828 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 62A10D7C14D5BA7E0072B828 /* libsqlite3.0.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -184,6 +187,10 @@
 		62A10D6314D523D70072B828 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		62A10D6514D523DE0072B828 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		62A10D6714D523E60072B828 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		62A10D7714D5B9680072B828 /* GANTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GANTracker.h; sourceTree = "<group>"; };
+		62A10D7814D5B9680072B828 /* libGoogleAnalytics.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAnalytics.a; sourceTree = "<group>"; };
+		62A10D7914D5B9680072B828 /* libGoogleAnalytics_NoThumb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAnalytics_NoThumb.a; sourceTree = "<group>"; };
+		62A10D7C14D5BA7E0072B828 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -191,6 +198,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62A10D7D14D5BA7F0072B828 /* libsqlite3.0.dylib in Frameworks */,
 				62A10D6814D523E60072B828 /* CoreAudio.framework in Frameworks */,
 				62A10D6614D523DF0072B828 /* AudioToolbox.framework in Frameworks */,
 				62A10D6414D523D80072B828 /* AVFoundation.framework in Frameworks */,
@@ -201,6 +209,8 @@
 				62A10CA214D4D1E40072B828 /* UIKit.framework in Frameworks */,
 				62A10CA414D4D1E40072B828 /* Foundation.framework in Frameworks */,
 				62A10CA614D4D1E40072B828 /* CoreGraphics.framework in Frameworks */,
+				62A10D7A14D5B9680072B828 /* libGoogleAnalytics.a in Frameworks */,
+				62A10D7B14D5B9680072B828 /* libGoogleAnalytics_NoThumb.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,9 +220,6 @@
 		62A10C9214D4D1E40072B828 = {
 			isa = PBXGroup;
 			children = (
-				62A10D6714D523E60072B828 /* CoreAudio.framework */,
-				62A10D6514D523DE0072B828 /* AudioToolbox.framework */,
-				62A10D6314D523D70072B828 /* AVFoundation.framework */,
 				62A10CA714D4D1E40072B828 /* eenit */,
 				62A10CA014D4D1E40072B828 /* Frameworks */,
 				62A10C9E14D4D1E40072B828 /* Products */,
@@ -230,6 +237,10 @@
 		62A10CA014D4D1E40072B828 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				62A10D7C14D5BA7E0072B828 /* libsqlite3.0.dylib */,
+				62A10D6714D523E60072B828 /* CoreAudio.framework */,
+				62A10D6514D523DE0072B828 /* AudioToolbox.framework */,
+				62A10D6314D523D70072B828 /* AVFoundation.framework */,
 				62A10D5B14D505830072B828 /* Twitter.framework */,
 				62A10D5914D505710072B828 /* GameKit.framework */,
 				62A10D5714D504EC0072B828 /* CoreData.framework */,
@@ -337,6 +348,7 @@
 		62A10D1814D4F51B0072B828 /* utils */ = {
 			isa = PBXGroup;
 			children = (
+				62A10D7614D5B9680072B828 /* GAnalytics */,
 				62A10D5214D504510072B828 /* CDataHandler.h */,
 				62A10D5314D504510072B828 /* CDataHandler.m */,
 				62A10D5D14D51F920072B828 /* LocalStorage.h */,
@@ -379,6 +391,17 @@
 			);
 			name = buttons;
 			path = images/buttons;
+			sourceTree = "<group>";
+		};
+		62A10D7614D5B9680072B828 /* GAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				62A10D7714D5B9680072B828 /* GANTracker.h */,
+				62A10D7814D5B9680072B828 /* libGoogleAnalytics.a */,
+				62A10D7914D5B9680072B828 /* libGoogleAnalytics_NoThumb.a */,
+			);
+			name = GAnalytics;
+			path = classes/utils/GAnalytics;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -596,6 +619,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "eenit/eenit-Prefix.pch";
 				INFOPLIST_FILE = "eenit/eenit-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/eenit/classes/utils/GAnalytics\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -607,6 +634,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "eenit/eenit-Prefix.pch";
 				INFOPLIST_FILE = "eenit/eenit-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/eenit/classes/utils/GAnalytics\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
